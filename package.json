@@ -1,0 +1,25 @@
+{
+  "name": "csmcdev-website",
+  "version": "1.0.0",
+  "description": "A website for csmc.dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/community-sourced-minecraft/website.git"
+  },
+  "author": "CSMC",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/community-sourced-minecraft/website/issues"
+  },
+  "homepage": "https://github.com/community-sourced-minecraft/website#readme",
+  "devDependencies": {
+    "vitepress": "^1.1.4"
+  }
+}
