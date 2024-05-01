@@ -20,9 +20,12 @@ hero:
 
 features:
   - title: Open Sourced
+    icon: 🔓
     details: Everyone can submit their code
   - title: Community Based
+    icon: 🌐
     details: We listen to community and implement their suggestions
   - title: Custom Servers
+    icon: 🤫
     details: Soon™️
 ---
