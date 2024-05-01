@@ -151,16 +151,16 @@
 
 @keyframes flying {
   0% {
-    transform: translate(-160px,-180px);
+    transform: translate(-160px,-170px);
   }
   
   50% {
-    transform: translate(-160px,-120px);
+    transform: translate(-160px,-150px);
 
   }
   
   100% {
-    transform: translate(-160px,-180px);
+    transform: translate(-160px,-170px);
 
   }
 }

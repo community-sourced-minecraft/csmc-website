@@ -16,7 +16,7 @@ hero:
       link: https://github.com/community-sourced-minecraft
     - theme: alt
       text: Copy IP
-      link: 
+      link: #
 
 features:
   - title: Open Sourced
