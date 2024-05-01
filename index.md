@@ -6,6 +6,7 @@ hero:
   name: "CSMC.dev"
   text: "Community Sourced Minecraft Server"
   tagline: From developers for developers (and players)
+  image: https://i.imgur.com/uYedmnt.png
   actions:
     - theme: brand
       text: Discord
@@ -13,6 +14,9 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/community-sourced-minecraft
+    - theme: alt
+      text: Copy IP
+      link: 
 
 features:
   - title: Open Sourced
@@ -22,4 +26,3 @@ features:
   - title: Custom Servers
     details: Soon™️
 ---
-

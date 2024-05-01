@@ -3,7 +3,24 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "CSMC.dev",
-  description: "Community Sourced Minecraft Server",
+  description: "A community sourced Minecraft server based on Minestom, Gate, NATS and Kubernetes",
+  appearance: "force-dark",
+  cleanUrls: true,
+  head: [
+    [
+      'script',
+      {
+        async: ""
+      },
+      `
+      setTimeout(() => {
+        document.getElementsByClassName("actions")[0].children[2].onclick = () => {
+          navigator.clipboard.writeText("csmc.dev")
+          alert("Copied IP to clipboard")
+      }}, 100)
+      `
+    ]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -28,7 +45,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the AGPL-3.0 License.',
-      copyright: 'Copyright © 2024-now - CSMC'
+      copyright: 'Copyright CSMC © 2024-now'
     }
   }
 })

@@ -140,3 +140,27 @@
 .VPFooter {
   border: 0!important;
 }
+
+.VPImage {
+  animation: flying 4s ease-in-out 0s infinite;
+}
+
+.image-bg {
+  animation: flying 4s ease-in-out 0s infinite;
+}
+
+@keyframes flying {
+  0% {
+    transform: translate(-160px,-180px);
+  }
+  
+  50% {
+    transform: translate(-160px,-120px);
+
+  }
+  
+  100% {
+    transform: translate(-160px,-180px);
+
+  }
+}
