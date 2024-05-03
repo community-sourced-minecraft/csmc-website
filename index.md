@@ -6,7 +6,7 @@ hero:
   name: "CSMC.dev"
   text: "Community Sourced Minecraft Server"
   tagline: From developers for developers (and players)
-  image: https://i.imgur.com/uYedmnt.png
+  image: https://i.imgur.com/6RuZgvJ.png
   actions:
     - theme: brand
       text: Discord

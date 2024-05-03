@@ -145,22 +145,18 @@
   animation: flying 4s ease-in-out 0s infinite;
 }
 
-.image-bg {
-  animation: flying 4s ease-in-out 0s infinite;
-}
-
 @keyframes flying {
   0% {
-    transform: translate(-160px,-170px);
+    transform: translate(-160px,-70px);
   }
   
   50% {
-    transform: translate(-160px,-150px);
+    transform: translate(-160px,-50px);
 
   }
   
   100% {
-    transform: translate(-160px,-170px);
+    transform: translate(-160px,-70px);
 
   }
 }
