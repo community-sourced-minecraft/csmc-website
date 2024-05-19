@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Discord
-      link: https://discord.gg/n6fRdUTa8q
+      link: https://discord.gg/sSSYt3b5Fm
     - theme: alt
       text: GitHub
       link: https://github.com/community-sourced-minecraft
