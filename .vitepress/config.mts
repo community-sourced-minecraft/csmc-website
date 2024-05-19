@@ -40,7 +40,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/community-sourced-minecraft' },
-      { icon: 'discord', link: 'https://discord.gg/n6fRdUTa8q' }
+      { icon: 'discord', link: 'https://discord.gg/sSSYt3b5Fm' }
     ],
 
     footer: {
