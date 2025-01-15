@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/community-sourced-minecraft/website#readme",
   "devDependencies": {
-    "vitepress": "^1.1.4"
+    "vitepress": "^1.5.0"
   }
 }

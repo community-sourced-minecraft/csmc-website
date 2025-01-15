@@ -45,7 +45,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the AGPL-3.0 License.',
-      copyright: 'Copyright CSMC © 2024-now'
+      copyright: 'Copyright CSMC © 2024-' + new Date().getFullYear()
     }
   }
 })
